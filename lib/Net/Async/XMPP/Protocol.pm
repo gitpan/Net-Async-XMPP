@@ -1,4 +1,7 @@
 package Net::Async::XMPP::Protocol;
+BEGIN {
+  $Net::Async::XMPP::Protocol::VERSION = '0.002';
+}
 use strict;
 use warnings;
 use parent qw{IO::Async::Protocol::Stream};
@@ -10,6 +13,10 @@ use Protocol::XMPP::Stream;
 =head1 NAME
 
 Net::Async::XMPP::Protocol - common protocol support for L<Net::Async::XMPP>
+
+=head1 VERSION
+
+version 0.002
 
 =head1 METHODS
 
@@ -159,4 +166,3 @@ Tom Molesworth <cpan@entitymodel.com>
 =head1 LICENSE
 
 Copyright Tom Molesworth 2010-2011. Licensed under the same terms as Perl itself.
-

@@ -1,13 +1,18 @@
 package Net::Async::XMPP::Server;
+BEGIN {
+  $Net::Async::XMPP::Server::VERSION = '0.002';
+}
 use strict;
 use warnings;
 use parent qw(Net::Async::XMPP);
 
-our $VERSION = '0.001';
-
 =head1 NAME
 
 Net::Async::XMPP::Server - asynchronous XMPP server based on L<Protocol::XMPP> and L<IO::Async::Protocol::Stream>.
+
+=head1 VERSION
+
+version 0.002
 
 =head1 DESCRIPTION
 
@@ -69,4 +74,3 @@ Tom Molesworth <cpan@entitymodel.com>
 =head1 LICENSE
 
 Copyright Tom Molesworth 2010-2011. Licensed under the same terms as Perl itself.
-

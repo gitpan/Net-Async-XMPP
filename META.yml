@@ -6,12 +6,16 @@ build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200001, CPAN::Meta::Converter version 2.110240'
+generated_by: 'Dist::Zilla version 4.200001, CPAN::Meta::Converter version 2.110350'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Net-Async-XMPP
 requires:
-  Protocol::XMPP: 0.001
-version: 0.001
+  IO::Async: 0.37
+  IO::Async::SSL: 0.04
+  Protocol::XMPP: 0.002
+  Socket: 0
+  parent: 0
+version: 0.002

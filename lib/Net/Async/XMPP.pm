@@ -3,7 +3,7 @@ package Net::Async::XMPP;
 use strict;
 use warnings;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 1;
 
@@ -12,6 +12,10 @@ __END__
 =head1 NAME
 
 Net::Async::XMPP - asynchronous XMPP client based on L<Protocol::XMPP> and L<IO::Async::Protocol::Stream>.
+
+=head1 VERSION
+
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -53,4 +57,3 @@ Tom Molesworth <cpan@entitymodel.com>
 =head1 LICENSE
 
 Copyright Tom Molesworth 2010-2011. Licensed under the same terms as Perl itself.
-
